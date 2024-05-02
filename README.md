@@ -1,51 +1,33 @@
-# Airbnb project
+Project Description:
 
-## description of the project
+Title: AirBnB Clone - RESTful API
 
-This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
+This project is a collaborative effort between Chaymae Al Morchid and Ifeanyi Ezeugwu, focusing on the development of a RESTful API for an AirBnB clone. The goal is to create a back-end system that provides a web server using Python and Flask.
 
-Each task is linked and will help you to:
+Key Concepts:
 
-- put in place a parent class (called BaseModel) to take care of the initialization,
-  serialization and - - - - deserialization of your future instances
-- create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-- create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
-- create the first abstracted storage engine of the project: File storage.
-- create all unittests to validate all our classes and storage engine
+REST API: Understanding the principles and implementation of RESTful APIs.
+AirBnB Clone: Developing a clone of the AirBnB platform.
+Flask: Utilizing the Flask framework for building the API.
+API: Understanding what an API is and its significance in software development.
+Webserver: Implementing a web server to handle API requests.
+Learning Objectives:
+By the end of this project, the team aims to achieve a deep understanding of the following concepts:
 
-## description of the command interpter:
+The meaning of REST and its relevance in API design.
+The significance of APIs in software development.
+The concept of CORS (Cross-Origin Resource Sharing) and its implementation.
+Different types of APIs and their use cases.
+HTTP methods for interacting with resources (GET, POST, PUT, DELETE).
+Requesting and interacting with REST APIs.
+Project Requirements:
 
-- execute console py `./console.py`
-- command:
+Python Scripts: All scripts should adhere to PEP 8 style and use Python 3.4.3.
+Documentation: All code should be well-documented, including modules, classes, and functions.
+Unit Tests: Unit tests should be implemented using the unittest module, following a specific file organization within the 'tests' folder.
+README.md: A README file should be included at the root of the project folder, providing an overview of the project and instructions for running it.
+Plagiarism Policy:
+The team is reminded of the strict policy against plagiarism. All solutions should be original and developed independently to meet the project's learning objectives. Any form of plagiarism will result in removal from the program.
 
-  - EOF : To Exit The program
-  - quit : To Exit The program
-  - help : to see The command line.
-  - `Enter + empty line ` : shouldn’t execute anything
 
-- Console v1.0:
-
-- create: to Creates a new instance
-  Usage: `create <name Class>` it will give you your id.
-
-- show: to Prints the string representation of an instance based on the class name and id.
-  Usage: `show <name Class> <id>`.
-
-- destroy: Deletes an instance based on the class name and id
-  Usage: `destroy <name Class> <id>`
-
-- all: Prints all string representation of all instances based or not on the class name.
-  Usage: `all <name Class>` or `all`.
-
-- update: Updates an instance based on the class name and id by adding or updating attribute
-  Usage: `update <name Class> <id> email "aibnb@mail.com"`
-
-console update:
-
-- Usage :
-  <class_name>.all() : print all name insttances of class.
-  <class_name>.count() : to count membre of insttances of class.
-  <class_name>.show("id") : to show membre of insttance of class
-  <class_name>.destroy("id") : to destroy membre of insttance of class
-  <class_name>.update("id", "attribute", value) : to destroy membre of insttance of class
-  <class_name>.update("id", dictionary) : to destroy membre of insttance of class
+Overall, this project presents an exciting opportunity for Chaymae Al Morchid and Ifeanyi Ezeugwu to deepen their understanding of RESTful API development using Python and Flask, contributing to their growth as skilled developers.
